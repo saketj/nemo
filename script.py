@@ -26,7 +26,7 @@ def match_title_idx(title_idx1, title_idx2):
             count_match = count_match + 1
         total_words = total_words + 1
     percent_match = (count_match * 1.0) / (total_words * 1.0)
-    return percent_match >= 0.80    # threshold is 80% match
+    return percent_match >= 0.50    # threshold is 50% match
 
 def get_year_from_citation(title):
     pub_year = 0
@@ -67,6 +67,8 @@ def is_valid_reference(title):
     return False
 
 def add_edge(nodes, edges, from_id, to_id):
+    if from_id == to_id:
+        return
     edges[(from_id, to_id)] = 1
     nodes[from_id]['outdegree'] = nodes[from_id]['outdegree'] + 1           # Update indegree
     nodes[to_id]['indegree'] = nodes[to_id]['indegree'] + 1      # Update outdegree

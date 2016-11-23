@@ -1,39 +1,77 @@
 var nodes = null;
 var edges = null;
 var network = null;
-var all_nodes = null;
-var all_edges = null;
+var all_nodes = new vis.DataSet(dataset_nodes);
+var all_edges = new vis.DataSet(dataset_edges);
 
 var indegree_param = 0;
 var outdegree_param = 1;
-var included_nodes = {};
 var excluded_nodes = {};
-var included_categories = ['SSD', 'DISK', 'CPU', 'NETWORK', 'MEMORY']
+var included_categories = ['SSD', 'DISK', 'CPU', 'NETWORK', 'MEMORY'];
 
 function draw() {
-  all_nodes = new vis.DataSet(dataset_nodes);
-  all_edges = new vis.DataSet(dataset_edges);
-  included_nodes = {};
+  $('#alertModal').modal('show');
+  var indegrees = {};
+  var outdegrees = {};
 
-  var nodes = all_nodes.get({
+  // (1) Get edges which do not point to/originate from excluded nodes, & get indegrees/outdegrees.
+  var edges = all_edges.get({
     filter: function(item) {
-      if (excluded_nodes.hasOwnProperty(item.id)) {
-        return 1 != 1; // return false, if node is supposed to be excluded
+      var isIncluded = !(excluded_nodes.hasOwnProperty(item.from) || excluded_nodes.hasOwnProperty(item.to));
+      if (isIncluded) {
+          if (indegrees.hasOwnProperty(item.to)) {
+            indegrees[item.to] = indegrees[item.to] + 1;
+          } else {
+            indegrees[item.to] = 1;
+          }
+          if (outdegrees.hasOwnProperty(item.from)) {
+            outdegrees[item.from] = outdegrees[item.from] + 1;
+          } else {
+            outdegrees[item.from] = 1;
+          }
       }
-      if ((item.indegree >= indegree_param || item.outdegree >= outdegree_param)
-            && (included_categories.indexOf(item.category)) >= 0){
-        included_nodes[item.id] = 1;
-        return 1 == 1;  // return true
-      }
-      return 1 != 1; // return false
+      return isIncluded;
     }
   });
 
-  var edges = all_edges.get({
+  // (2) Remove nodes that do not satisfy the indegree and outdegrees
+  var nodes = all_nodes.get({
     filter: function(item) {
-      return (included_nodes.hasOwnProperty(item.from) && included_nodes.hasOwnProperty(item.to));
+      var isIncluded = true;
+
+      // Check if category is included or not.
+      if (included_categories.indexOf(item.category) < 0) {
+        isIncluded = false;
+      }
+
+      if (indegrees.hasOwnProperty(item.id) || outdegrees.hasOwnProperty(item.id)) {
+        // Check if desired indegree is available for this node.
+        if (indegrees.hasOwnProperty(item.id) && indegrees[item.id] < indegree_param) {
+          isIncluded = false;
+        }
+        // Check if desired outdegree is available for this node.
+        if (outdegrees.hasOwnProperty(item.id) && outdegrees[item.id] < outdegree_param) {
+          isIncluded = false;
+        }
+      } else {
+        // this node is being removed because it has both indegree & outdegree zero.
+        isIncluded = false;
+      }
+
+      if (!isIncluded) {
+        excluded_nodes[item.id] = 1;
+      }
+      return isIncluded;
     }
-  })
+  });
+
+  // (3) Final edge removal based on excluded.
+  edges = all_edges.get({
+    filter: function(item) {
+      return !(excluded_nodes.hasOwnProperty(item.from) || excluded_nodes.hasOwnProperty(item.to));
+    }
+  });
+
 
   // Instantiate our network object.
   var container = document.getElementById('mynetwork');
@@ -82,6 +120,13 @@ function applyFilter() {
   included_categories = $("input[name='category']:checked").map(function(){
                             return $(this).val();
                           }).get();
-  $('#alertModal').modal('show');
+  draw();
+}
+
+function applyReset() {
+  indegree_param = 0;
+  outdegree_param = 1;
+  excluded_nodes = {};
+  included_categories = ['SSD', 'DISK', 'CPU', 'NETWORK', 'MEMORY'];
   draw();
 }

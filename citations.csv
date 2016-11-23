@@ -3,3 +3,4 @@
 10,Schroeder, Bianca, Raghav Lagisetty, and Arif Merchant. "Flash reliability in production: The expected and the unexpected." In 14th USENIX Conference on File and Storage Technologies (FAST 16), pp. 67-80. 2016.
 14,Meza, Justin, Qiang Wu, Sanjev Kumar, and Onur Mutlu. "A large-scale study of flash memory failures in the field." In ACM SIGMETRICS Performance Evaluation Review, vol. 43, no. 1, pp. 177-190. ACM, 2015.
 687,Schroeder B, Gibson GA. Disk failures in the real world: What does an mttf of 1, 000, 000 hours mean to you?. InFAST 2007 Feb 13 (Vol. 7, pp. 1-16).
+3,Hao M, Soundararajan G, Kenchammana-Hosekote D, Chien AA, Gunawi HS. The tail at store: a revelation from millions of hours of disk and SSD deployments. In14th USENIX Conference on File and Storage Technologies (FAST 16) 2016 (pp. 263-276).

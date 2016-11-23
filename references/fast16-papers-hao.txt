@@ -1,0 +1,212 @@
+DISK
+Hao M, Soundararajan G, Kenchammana-Hosekote D, Chien AA, Gunawi HS. The tail at store: a revelation from millions of hours of disk and SSD deployments. In14th USENIX Conference on File and Storage Technologies (FAST 16) 2016 (pp. 263-276).
+[1] Weak Head. http://forum.hddgu=ru.com/search. .
+php?keywords=weak-head
+[2] Personal Communication from Andrew Baptist of
+Cleversafe, 2013.
+[3] Personal Communication from Garth Gibson of CMU,
+2013.
+[4] Personal Communication from NetApp Hardware and
+Product Teams, 2015.
+[5] Abutalib Aghayev and Peter Desnoyers. Skylight-A
+Proceedings of Window on Shingled Disk Operation. In the 13th USENIX
+Symposium on File and Storage Technologies (FAST) , 2015.
+[6] Ganesh Ananthanarayanan, Ali Ghodsi, Scott Shenker,
+and Ion Stoica. Effective Straggler Mitigation: Attack of Proceedings of
+the 10th Symposium on the Clones. In Networked Systems Design and
+Implementation (NSDI) , 2013.
+[7] Ganesh Ananthanarayanan, Srikanth Kandula, Albert
+Greenberg, Ion Stoica, Yi Lu, Bikas Saha, and Edward Harris. Reining in the
+Outliers in Map-Reduce Clusters Proceedings of the 9th Symposium on using
+Mantri. In Operating Systems Design and Implementation (OSDI) ,
+2010.
+[8] Lakshmi N. Bairavasundaram, Garth R. Goodson,
+Shankar Pasupathy, and Jiri Schindler. An Analysis of Proceedings of Latent
+Sector Errors in Disk Drives. In the 2007 ACM Conference on Measurement and
+Modeling of Computer Systems (SIGMETRICS) , 2007.
+[9] Lakshmi N. Bairavasundaram, Garth R. Goodson, Bianca
+Schroeder, Andrea C. Arpaci-Dusseau, and Remzi H. Arpaci-Dusseau. An
+Analysis of Data Proceedings of the Corruption in the Storage Stack. In 6th
+USENIX Symposium on File and Storage Technologies (FAST) ,
+2008.
+[10] Jeff Barr. Amazon S3 - 905 Billion Objects and
+650,000 Requests/Second. http://aws.amazon.c=om/cn/
+blogs/aws/amazon-s3=-905-billion-objects, 2012.
+and-650000-requests=second
+[11] Jake Brutlag. Speed Matters for Google Web Search.
+http://services.goo=gle.com/fh/files/blogs/ , 2009.
+google_delayexp.pdf=
+[12] John Colgrove, John D. Davis, John Hayes, Ethan L.
+Miller, Cary Sandvig, Russell Sears, Ari Tamches, Neil Vachharajani, and
+Feng Wang. Purity: Building fast, highly-available enterprise flash storage
+from Proceedings of the 2015 commodity components. In ACM SIGMOD
+International Conference on Management of Data (SIGMOD) , 2015.
+[13] Jeffrey Dean and Luiz Andr Barroso. The Tail at
+Scale. Communications of the ACM , 56(2), February 2013.
+[14] Jeffrey Dean and Sanjay Ghemawat. MapReduce:
+Simplified Data Processing on Large Clusters. In Proceedings of the 6th
+Symposium on Operating Systems Design and Implementation (OSDI) ,
+2004.
+[15] Giuseppe DeCandia, Deniz Hastorun, Madan Jampani,
+Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan
+Sivasubramanian, Peter Vosshall, and Werner Vogels. Dynamo: Amazon's Highly
+Proceedings of the 21st Available Key-value Store. In ACM Symposium on
+Operating Systems Principles (SOSP) , 2007.
+[16] Thanh Do, Mingzhe Hao, Tanakorn Leesatapornwongsa,
+Tiratat Patana-anake, and Haryadi S. Gunawi. Limplock: Understanding the
+Impact of Limpware on Scale-Out Proceedings of the 4th ACM Cloud Systems.
+In Symposium on Cloud Computing (SoCC) , 2013.
+[17] Michael Feldman. Startup Takes Aim at
+Performance-Killing Vibration in Datacenter. http://
+www.hpcwire.com/2010/01/19/startup takes aim at performance-killing , 2010.
+vibration in datacenter/
+[18] Tim Feldman and Garth Gibson. Shingled Magnetic
+Recording: Areal Density Increase Requires New Data USENIX ;login: Magazine
+Management. , 38(3), Jun 2013. Flash
+[19] Robert Frickey. Data Integrity on 20nm SSDs. In
+Memory Summit , 2012.
+[20] Natalie Gagliordi. Seagate Q2 solid, 61.3 exabytes
+shipped. http://www.zdnet.co=m/article/ ,
+seagate-q2-solid-61-3-exabytes-shipped/ 2015.
+[21] John Gantz and David Reinsel. The digital universe
+in 2020. http://www.emc. com/collateral/analyst-=reports/idc-the, 2012.
+digital-universe-in-202=0.pdf
+[22] Laura M. Grupp, Adrian M. Caulfield, Joel Coburn,
+Steven Swanson, Eitan Yaakobi, Paul H. Siegel, and Jack K. Wolf.
+Characterizing flash memory: anomalies, 42nd Annual observations, and
+applications. In IEEE/ACM International Symposium on Microarchitecture
+(MICRO-42) , 2009.
+[23] Laura M. Grupp, John D. Davis, and Steven Swanson.
+The Bleak Future of NAND Flash Memory. In Proceedings of the 10th USENIX
+Symposium on File and Storage Technologies (FAST) , 2012.
+[24] Ajay Gulati, Irfan Ahmad, and Carl A. Waldspurger.
+PARDA: Proportional Allocation of Resources for Proceedings of the 7th
+Distributed Storage Access. In USENIX Symposium on File and Storage
+Technologies (FAST) , 2009.
+[25] Ajay Gulati, Arif Merchant, and Peter J. Varman.
+mClock: Handling Throughput Variability for Proceedings of the 9th
+Hypervisor IO Scheduling. In Symposium on Operating Systems Design and
+Implementation (OSDI) , 2010.
+[26] Haryadi S. Gunawi, Mingzhe Hao, Tanakorn
+Leesatapornwongsa, Tiratat Patana-anake, Thanh Do, Jeffry Adityatama,
+Kurnia J. Eliazar, Agung Laksono, Jeffrey F. Lukman, Vincentius Martin, and
+Anang D. Satria. What Bugs Live in the Cloud? A Study of 3000+ Proceedings
+of the 5th ACM Issues in Cloud Systems. In Symposium on Cloud Computing
+(SoCC) , 2014.
+[27] Haryadi S. Gunawi, Vijayan Prabhakaran, Swetha
+Krishnan, Andrea C. Arpaci-Dusseau, and Remzi H. Arpaci-Dusseau. Improving
+File System Reliability with Proceedings of the 21st ACM I/O Shepherding.
+In Symposium on Operating Systems Principles (SOSP) , 2007.
+[28] Haryadi S. Gunawi, Abhishek Rajimwale, Andrea C.
+Arpaci-Dusseau, and Remzi H. Arpaci-Dusseau. SQCK: Proceedings of A
+Declarative File System Checker. In the 8th Symposium on Operating Systems
+Design and Implementation (OSDI) , 2008.
+[29] Robin Harris. Bad, bad, bad vibrations. http://www.
+, zdnet.com/article/ba=d-bad-bad-vibrations/ 2010.
+[30] Jun He, Duy Nguyen, Andrea C. Arpaci-Dusseau, and
+Remzi H. Arpaci-Dusseau. Reducing File System Tail
+[0] Cheng Huang, Huseyin Simitci, Yikang Xu, Aaron Ogus, Brad
+Calder, Parikshit Gopalan, Jin Li, and Sergey Yekhanin. Erasure Coding in
+Windows Azure Storage. Proceedings of the 2012 USENIX Annual Technical In
+Conference (ATC) , 2012.
+[0] Jennifer Johnson. SSD Market On Track For More Than
+Double Growth This Year. http://hothardwareO.
+com/news/SSD-Market-On-TrOack-For-More-Than , 2013.
+-Double-Growth-This-YOear
+[0] Elie Krevat, Joseph Tucek, and Gregory R. Ganger. The
+Disks Are Like Snowflakes: No Two Are Alike. In 13th Workshop on Hot Topics
+in Operating Systems (HotOS XIII) , 2011.
+[0] Jialin Li, Naveen Kr. Sharma, Dan R. K. Ports, and Steven
+D. Gribble. Tales of the Tail: Hardware, OS, and Application-level Sources
+of Tail Latency. In Proceedings of the 5th ACM Symposium on Cloud Computing
+(SoCC) , 2014.
+[0] Jim Liddle. Amazon found every 100ms of latency cost them
+1% in sales. http://blog.gigaspOaces.
+com/amazon-found-every-10O0ms-of-latency , 2008.
+-cost-them-1-in-salesO/
+[0] Ao Ma, Fred Douglis, Guanlin Lu, Darren Sawyer, Surendar
+Chandra, and Windsor Hsu. RAIDShield: Characterizing, Monitoring, and
+Proactively Protecting Proceedings of the 13th Against Disk Failures. In
+USENIX Symposium on File and Storage Technologies (FAST) ,
+2015.
+[0] Eduardo Pinheiro, Wolf-Dietrich Weber, and Luiz Andre
+Barroso. Failure Trends in a Large Disk Drive Proceedings of the 5th USENIX
+Population. In Symposium on File and Storage Technologies (FAST) ,
+2007.
+[0] James S. Plank, Jianqiang Luo, Catherine D. Schuman,
+Lihao Xu, and Zooko Wilcox-O'Hearn. A Performance Evaluation and
+Examination of Open-Source Erasure Proceedings of the 7th Coding Libraries
+for Storage. In USENIX Symposium on File and Storage Technologies (FAST) ,
+2009.
+[0] Bianca Schroeder, Sotirios Damouras, and Phillipa Gill.
+Understanding Latent Sector Errors and How to Protect Proceedings of the
+8th USENIX Against Them. In Symposium on File and Storage Technologies
+(FAST) , 2010.
+[0] Bianca Schroeder and Garth A. Gibson. Disk failures in
+the real world: What does an MTTF of 1,000,000 hours Proceedings of the 5th
+USENIX mean to you? In Symposium on File and Storage Technologies (FAST) ,
+2007.
+[0] Anand Lal Shimpi. Intel Discovers Bug in 6-Series
+Chipset: Our Analysis. http://www.anandteOch.
+com/show/4142/intel-disOcovers-bug-in-6series , 2011.
+-chipset-begins-recaOll
+[0] David Shue, Michael J. Freedman, and Anees Shaikh.
+Performance Isolation and Fairness for Multi-Tenant Proceedings of the 10th
+Symposium Cloud Storage. In on Operating Systems Design and Implementation
+(OSDI) , 2012.
+[0] Dimitris Skourtis, Dimitris Achlioptas, Noah Watkins,
+Carlos Maltzahn, and Scott Brandt. Flash on rails: Consistent flash
+performance through redundancy. In Conference (ATC) Proceedings of the 2014
+USENIX Annual Technical , 2014.
+[0] Steve Souders. Velocity and the Bottom Line. http://
+radar.oreilly.com/O2009/07/ , 2009.
+velocity-making-your-site-fast.html
+[0] Lalith Suresh, Marco Canini, Stefan Schmid, and Anja
+Feldmann. C3: Cutting Tail Latency in Cloud Data Proceedings of Stores via
+Adaptive Replica Selection. In the 12th Symposium on Networked Systems
+Design and Implementation (NSDI) , 2015.
+[0] Lalith Suresh, Marco Canini, Stefan Schmid, and Anja
+Feldmann. C3: Cutting Tail Latency in Cloud Data Proceedings of Stores via
+Adaptive Replica Selection. In the 12th Symposium on Networked Systems
+Design and Implementation (NSDI) , 2015.
+[0] Utah Emulab Testbed. RAID controller timeout problems on
+boss node, on 6/21/2013. http://www. , 2013.
+emulab.net/news.phOp3
+[0] Beth Trushkowsky, Peter Bodik, Armando Fox, Michael J.
+Franklin, Michael I. Jordan, and David A. Patterson. The SCADS Director:
+Scaling a Distributed Storage System Under Stringent Performance
+Proceedings of the 9th USENIX Requirements. In Symposium on File and
+Storage Technologies (FAST) , 2011.
+[0] Kristian Vatto. Samsung Acknowledges the SSD 840 EVO Read
+Performance Bug - Fix Is on the Way.
+http://www.anandteOch.com/show/8550/samsung
+-acknowledges-the-ssOd-840-evo-read- , 2014.
+performance-bug-fixO-is-on-the-way
+[0] Shivaram Venkataraman, Aurojit Panda, Ganesh
+Ananthanarayanan, Michael J. Franklin, and Ion Stoica. The Power of Choice
+in Data-Aware Cluster Scheduling. Proceedings of the 11th Symposium on
+Operating In Systems Design and Implementation (OSDI) , 2014.
+[0] Guanying Wu and Xubin He. Reducing SSD Read Latency via
+NAND Flash Program and Erase Proceedings of the 10th USENIX Suspension. In
+Symposium on File and Storage Technologies (FAST) , 2012.
+[0] Zhe Wu, Curtis Yu, and Harsha V. Madhyastha. CosTLO:
+Cost-Effective Redundancy for Lower Latency Proceedings of Variance on
+Cloud Storage Services. In the 12th Symposium on Networked Systems Design
+and Implementation (NSDI) , 2015.
+[0] Huaxia Xia and Andrew A. Chien. RobuSTore: Robust
+Performance for Distributed Storage Systems. In Proceedings of the 2007
+Conference on High Performance Networking and Computing (SC) ,
+2007.
+[0] Neeraja J. Yadwadkar, Ganesh Ananthanarayanan, and Randy
+Katz. Wrangler: Predictable and Faster Jobs Proceedings of the 5th ACM
+using Fewer Resources. In Symposium on Cloud Computing (SoCC) ,
+2014.
+[0] Suli Yang, Tyler Harter, Nishant Agrawal, Salini Selvaraj
+Kowsalya, Anand Krishnamurthy, Samer Al-Kiswany, Rini T. Kaushik, Andrea C.
+Arpaci-Dusseau, and Remzi H. Arpaci-Dusseau. Split-Level I/O Scheduling.
+Proceedings of the 25th ACM Symposium on In Operating Systems Principles
+(SOSP) , 2015.
+[0] Matei Zaharia, Andy Konwinski, Anthony D. Joseph, Randy
+Katz, and Ion Stoica. Improving MapReduce Performance in Heterogeneous
+Environments. In Design and Implementation (OSDI) Proceedings of the 8th
+Symposium on Operating Systems , 2008.

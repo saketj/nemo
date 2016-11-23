@@ -10,6 +10,7 @@ def processXml(tmpFile, outputFile):
     i = 1
     for item in itemlist:
         row = "[%d] %s\n" % (i, item.firstChild.nodeValue.encode('utf-8').strip())
+        row = re.sub("\[\d+\]\s+\[\d+\]", "[0]", row)
         f.write(row)
         i = i + 1
     f.close()

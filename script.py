@@ -45,9 +45,8 @@ def create_node_from_title(nodes, title, category):
     nodes[len(nodes)] = { 'title_idx': title_idx,
                           'title': filter_title(title),
                           'category': category,
-                          'year': get_year_from_citation(title),
-                          'indegree': 0,
-                          'outdegree': 0 }
+                          'year': get_year_from_citation(title)
+                        }
     return len(nodes) - 1
 
 
@@ -70,8 +69,6 @@ def add_edge(nodes, edges, from_id, to_id):
     if from_id == to_id:
         return
     edges[(from_id, to_id)] = 1
-    nodes[from_id]['outdegree'] = nodes[from_id]['outdegree'] + 1           # Update indegree
-    nodes[to_id]['indegree'] = nodes[to_id]['indegree'] + 1      # Update outdegree
 
 
 def generate_node_dataset(nodes):
@@ -91,8 +88,8 @@ def generate_node_dataset(nodes):
     f.write("var dataset_nodes = [\n")
     for key,value in nodes.items():
         color = get_color(value['year'], value['category'])
-        row = "\t{id: %d, value: %d, color: '%s', title: '%s', info: '%s', category: '%s', indegree: %d, outdegree: %d},\n" \
-               % (key, citations.get(key, 0), color, value['title'], value['title'], value['category'], value['indegree'], value['outdegree'])
+        row = "\t{id: %d, value: %d, color: '%s', category: '%s', title: '%s', info: '%s'},\n" \
+               % (key, citations.get(key, 0), color, value['category'], value['title'], value['title'])
         f.write(row)
     f.write("];");
     f.close()
@@ -110,7 +107,7 @@ def generate_edges_dataset(edges):
     return
 
 def main():
-    nodes = dict()      # dictionary of (node_id, <node_title_idx, node_title, year_of_pub, indegree, outdegree>)
+    nodes = dict()      # dictionary of (node_id, <node_title_idx, node_title, year_of_pub>)
     edges = dict()      # list of (from, to) tuple edges
     source_dir = "references"
     for filename in os.listdir(source_dir):

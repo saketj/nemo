@@ -1,0 +1,21 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Citation Visualization</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="dataset-nodes.js"></script>
+  <script type="text/javascript" src="dataset-edges.js"></script>
+  <script type="text/javascript" src="plot-graph.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="draw()">
+  <p>
+    Citation Graph Visualization <i>(directed edges imply 'cited by' relationship)</i>
+  </p>
+  <div id="mynetwork"></div>
+  <pre id="info"></pre>
+</body>
+</html>

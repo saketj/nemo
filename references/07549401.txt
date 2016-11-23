@@ -1,0 +1,61 @@
+Cited by 0
+Wang S, Cao J, Murillo DV, Shi Y, Zheng M. Emulating Realistic Flash Device Errors with High Fidelity. InNetworking, Architecture and Storage (NAS), 2016 IEEE International Conference on 2016 Aug (pp. 1-2). IEEE.
+[1] "Global shipments of hdds and ssds in pcs from 2012
+to 2017," http://www.statista.com/statistics/285474/
+hdds-and-ssds-in-pcs-global- shipments-2012-2017/.
+[2] "When solid state drives are not that solid,"
+https://blog.algolia.com/ when-solid-state-drives-are-not- that-
+solid/.
+[3] M. Bjørling, J. Axboe, D. Nellans, and P.
+Bonnet, "Linux block io: InProceedings troducing multi-queue ssd access on
+multi-core systems," in of the 6th International Systems and Storage
+Conference , ser. SYSTOR '13. New York, NY, USA: ACM, 2013, pp.
+22:1-22:10.
+[4] C. Lee, D. Sim, J. Hwang, and S. Cho, "F2FS: A new
+file system 13th USENIX Conference on File and Storage for flash storage,"
+in Technologies (FAST 15) . Santa Clara, CA: USENIX Association, Feb. 2015,
+pp. 273-286. [Online]. Available: https://www.usenix.org/
+conference/fast15/technical- sessions/presentation/lee
+[5] L. Marmol, S. Sundararaman, N. Talagala, R.
+Rangaswami, S. Devendrappa, B. Ramsundar, and S. Ganesan, "Nvmkv: A 6th
+scalable and lightweight flash aware key-value store," in USENIX Workshop
+on Hot Topics in Storage and File Systems (HotStorage 14) . Philadelphia,
+PA: USENIX Association, Jun. 2014. [Online]. Available:
+https://www.usenix.org/conference/hotstorage14/
+workshop-program/presentation/marmol
+[6] M. Zheng, J. Tucek, F. Qin, and M. Lillibridge,
+"Understanding Presented as part the robustness of SSDs under power fault,"
+in of the 11th USENIX Conference on File and Storage Technologies (FAST 13)
+. San Jose, CA: USENIX, 2013, pp. 271-284. [Online]. Available:
+https://www.usenix.org/conference/fast13/technical- sessions/
+presentation/zheng
+[7] J. Meza, Q. Wu, S. Kumar, and O. Mutlu, "A
+large-scale study of Proceedings of the 2015 ACM flash memory failures in
+the field," in SIGMETRICS International Conference on Measurement and
+Modeling of Computer Systems , ser. SIGMETRICS '15. New York, NY, USA: ACM,
+2015, pp. 177-190. [Online]. Available: http://doi.acm.org/10.
+1145/2745844.2745848
+[8] B. Schroeder, R. Lagisetty, and A. Merchant, "Flash
+reliability 14th in production: The expected and the unexpected," in USENIX
+Conference on File and Storage Technologies (FAST 16) .Santa Clara, CA:
+USENIX Association, Feb. 2016, pp. 67-80. [Online]. Available:
+http://usenix.org/conference/fast16/ technical-
+sessions/presentation/schroeder
+[9] M. Zheng, J. Tucek, D. Huang, F. Qin, M.
+Lillibridge, E. S. Yang, B. W. Zhao, and S. Singh, "Torturing databases for
+fun and 11th USENIX Symposium on Operating Systems Design and profit," in
+Implementation (OSDI 14) . Broomfield, CO: USENIX Association, Oct. 2014,
+pp. 449-464. [Online]. Available: https://www.usenix.org/
+conference/osdi14/technical- sessions/presentation/zheng mai
+[10] J. Yang, C. Sar, and D. Engler, "EXPLODE: a
+lightweight, general Proceedings of the system for finding serious storage
+system errors," in Seventh Symposium on Operating Systems Design and
+Implementation (OSDI '06) , November 2006, pp. 131-146.
+[11] T. S. Pillai, V. Chidambaram, R. Alagappan, S.
+Al-Kiswany, A. C. Arpaci-Dusseau, and R. H. Arpaci-Dusseau, "All file
+systems are not created equal: On the complexity of crafting
+crash-consistent applicaProceedings of the 11th USENIX Conference on
+Operating tions," in
+[12] "Linux SCSI Target Framework," Systems Design and
+Implementation http://stgt.sourceforge.net/ , ser. OSDI'14, 2014, pp.
+433-448. .

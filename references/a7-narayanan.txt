@@ -1,0 +1,95 @@
+Cited by 1
+Iyswarya Narayanan, Di Wang, Myeongjae Jeon, Bikash Sharma, Laura Caulfield, Anand Sivasubramaniam, Ben Cutler, Jie Liu, Badriddine Khessib, and Kushagra Vaid. 2016. SSD Failures in Datacenters: What? When? and Why?. In Proceedings of the 9th ACM International on Systems and Storage Conference (SYSTOR 16). ACM, New York, NY, USA, , Article 7 , 11 pages. DOI: http://dx.doi.org/10.1145/2928275.2928278
+[1] Enhanced Content Distribution Network with Intel
+Solid-State Drives. http://www.intel.fr/content/
+dam/www/public/us/en/documents/case-studies/
+cloud-computing-ssd-beijing-fastwebcase-study. . pdf
+[2] American National Standards Institute. AT attachment
+8 ATA/ATAPI command set (ATA8-ACS), 2008. URL http:
+//www.t13.org/documents/uploadeddocuments/ .
+docs2008/d1699r6a-ata8-acs.pdf
+[3] D. G. Andersen and S. Swanson. Rethinking Flash in
+the Data IEEE Micro Center. , 2010.
+[4] S. Boboila and P. Desnoyers. Write Endurance in
+Flash USENIX FAST Drives: Measurements and Analysis. In , 2010. Machine
+learning
+[5] L. Breiman. Random Forests. , 2001.
+[6] Y. Cai, E. Haratsch, O. Mutlu, and K. Mai. Error
+Patterns in MLC NAND Flash Memory: Measurement, Characterization, DATE and
+Analysis. In , 2012.
+[7] Y. Cai, G. Yalcin, O. Mutlu, E. F. Haratsch, A.
+Cristal, O. S. Unsal, and K. Mai. Flash Correct-and-Refresh: RetentionAware
+Error Management for Increased Flash Memory LifeICCD time. In ,
+2012.
+[8] Y. Cai, O. Mutlu, E. F. Haratsch, and K. Mai.
+Program Interference in MLC NAND Flash Memory: Characterization, ICCD
+Modeling, and Mitigation. In , 2013.
+[9] Y. Cai, Y. Luo, S. Ghose, E. F. Haratsch, K. Mai,
+and O. Mutlu. Read Disturb Errors in MLC NAND Flash Memory: CharIEEE/IFIP
+DSN acterization, Mitigation, and Recovery. In , 2015.
+[10] Y. Cai, Y. Luo, E. F. Haratsch, K. Mai, and O.
+Mutlu. Data Retention in MLC NAND Flash Memory: Characterization, HPCA
+Optimization, and Recovery. In , 2015.
+[11] P. Cappelletti, R. Bez, D. Cantarelli, and L.
+Fratin. Failure Mechanisms of Flash Cell in Program/Erase Cycling. In IEDM
+Tech. Dig. , 1994.
+[12] N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P.
+Kegelmeyer. SMOTE: Synthetic Minority Over-sampling J. Artif. Int. Res.
+Technique. , 2002.
+[13] B. Debnath, S. Sengupta, and J. Li. FlashStore:
+High Proc. VLDB Endow. Throughput Persistent Key-value Store. , 2010.
+arXiv
+[14] H. Deng. Interpreting Tree Ensembles with inTrees.
+preprint arXiv:1408.5456 , 2014.
+[15] L. M. Grupp, A. M. Caulfield, J. Coburn, S.
+Swanson, E. Yaakobi, P. H. Siegel, and J. K. Wolf. Characterizing Flash
+MIMemory: Anomalies, Observations, and Applications. In CRO ,
+2009.
+[16] L. M. Grupp, J. D. Davis, and S. Swanson. The Bleak
+Future USENIX FAST of NAND Flash Memory. In , 2012.
+[17] X.-Y. Hu, E. Eleftheriou, R. Haas, I. Iliadis, and
+R. Pletka. Write amplification analysis in flash-based solid state drives.
+ACM SYSTOR In , 2009.
+[18] M. Isard. Autopilot: Automatic Data Center
+Management. SIGOPS Oper. Syst. Rev. , 2007.
+[19] W. Jiang, C. Hu, Y. Zhou, and A. Kanevsky. Are
+Disks the Dominant Contributor for Storage Failures?: A Comprehensive Study
+of Storage Subsystem Failure Characteristics. Trans. Storage ,
+2008.
+[20] M. Jung and M. Kandemir. Revisiting Widely Held SSD
+Expectations and Rethinking System-level Implications. In ACM SIGMETRICS ,
+2013.
+[21] M. Kalisch. Package pcalg. 2015.
+[22] E. L. Kaplan and P. Meier. Nonparametric estimation
+from Journal of the American statistical incomplete observations.
+association , 1958. Graphical models
+[23] S. L. Lauritzen. . 1996.
+[24] J. Meza, Q. Wu, S. Kumar, and O. Mutlu. A
+Large-Scale Study of Flash Memory Failures in the Field. ACM SIGMETRICS,
+2015.
+[25] Microsoft Azure Premium Storage. Microsoft Azure
+Premium Storage, 2015. https: //azure.microsoft.com/en-us/blog/ .
+azure-premium-storage-now-generally-available-2/
+[26] N. Mielke, T. Marquart, N. Wu, J. Kessenich, H.
+Belgal, E. Schares, F. Trivedi, E. Goodness, and L. Nevill. Bit error IRPS
+2008. rate in nand flash memories. In , 2008. Causality: Models, Reasoning,
+and Inference
+[27] J. Pearl. . 2000.
+[28] E. Pinheiro, W.-D. Weber, and L. A. Barroso.
+Failure Trends USENIX FAST in a Large Disk Drive Population. In ,
+2007.
+[29] B. Schroeder and G. A. Gibson. Disk Failures in the
+Real World: What Does an MTTF of 1,000,000 Hours Mean to USENIX FAST You?
+In , 2007.
+[30] B. Schroeder, E. Pinheiro, and W.-D. Weber. DRAM
+Errors in ACM SIGMETRICS the Wild: A Large-scale Field Study. In ,
+2009.
+[31] B. Schroeder, R. Lagisetty, and A. Merchant. Flash
+reliability FAST in production: The expected and the unexpected. In ,
+2016.
+[32] H.-W. Tseng, L. Grupp, and S. Swanson.
+Understanding the DAC Impact of Power Loss on Flash Memory. In , 2011.
+USENIX FAST ,
+[33] M. Zheng, J. Tucek, F. Qin, and M. Lillibridge.
+Understanding the Robustness of SSDs Under Power Fault. In
+2013.

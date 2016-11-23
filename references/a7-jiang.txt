@@ -1,0 +1,49 @@
+Cited by 9
+Weihang Jiang, Chongfeng Hu, Yuanyuan Zhou, and Arkady Kanevsky. 2008. Are disks the dominant contributor for storage failures?: A comprehensive study of storage subsystem failure characteristics. Trans. Storage 4, 3, Article 7 (November 2008), 25 pages. DOI=http://dx.doi.org/10.1145/1416944.1416946
+[1] ALLEN, B. 2004. Monitoring hard disks with smart. Linux J. 117, 9.
+[2] BAIRAVASUNDARAM, L. N., GOODSON, G. R., SCHROEDER, B., ARPACI-DUSSEAU, A. C., AND ARPACI-DUSSEAU,
+[3] R. H. 2008. An Analysis of data corruption in the storage stack. In Proceedings of the 6th
+USENIX Conference on File and Storage Technologies (FAST), San Jose, CA.
+[4] BAIRAVASUNDARAM, L. N., GOODSON, G. R., PASUPATHY, S., AND SCHINDLER, J. 2007. An analysis of
+latent sector errors in disk drives. SIGMETRICS Perform. Eval. Rev. 35, 1, 289–300.
+[5] COLE, G. 2000. Estimating drive reliability in desktop computers and consumer electronics systems.
+Tech. Rep., Seagate Technology Paper TP-338.1.
+[6] CORBETT, P., ENGLISH, B., GOEL, A., GRCANAC, T., KLEIMAN, S., LEONG, J., AND SANKAR, S. 2004. RowDiagonal
+parity for double disk failure correction. In Proceedings of the 3rd USENIX Conference
+on File and Storage Technologies (FAST), 1–14.
+[7] ELERATH, J. G. AND SHAH, S. 2004. Server class disk drives: How reliable are they. In Proceedings
+of the IEEE Reliability and Maintainability Symposium, 151–156.
+[8] ELERATH, J. G. AND SHAH, S. 2003. Disk drive reliability case study: Dependence upon head flyheight
+and quantity of heads. In Proceedings of the Reliability and Maintainability Symposium,
+608–612.
+[9] EMC. 2007. EMC symmetrix DMX-4 specification sheet. http://www.emc.com/products/systems/
+symmetrix/symmetri DMX1000/pdf/DMX3000.pdf.
+[10] GHEMAWAT, S., GOBIOFF, H., AND LEUNG, S.-T. 2003. The Google file system. In Proceedings of the
+19th ACM Symposium on Operating Systems Principles (SOSP), New York, 29–43.
+[11] GRAY, J. 1990. A census of tandem system availability between 1985 and 1990. In Proceedings of
+the IEEE Transactions on Reliability.
+[12] LANCASTER, L. AND ROWE, A. 2001. Measuring real-world data availability. In Proceedings of the
+15th USENIX Conference on System Administration (LISA), Berkeley, CA, 93–100.
+[13] NetApp. 2008. FAS6000 series technical specifications. http://www.netapp.com/products/filer/
+fas6000 tech specs.html.
+[14] PATTERSON, D. A., GIBSON, G. A., AND KATZ, R. H. 1988. A case for redundant arrays of inexpensive
+disks (RAID). In Proceedings of the ACM SIGMOD International Conference on Management of
+Data, Chicago, IL, H. Boral and P.-˚A. Larson, eds. ACM Press, 109–116.
+[15] PINHEIRO, E., WEBER, W.-D., AND BARROSO, L. A. 2007. Failure trends in a large disk drive population.
+In Proceedings of the 5th USENIX Conference on File and Storage Technologies (FAST),
+Berkeley, CA.
+[16] ROSANDER, A. C. 1951. Elementary Principles of Statistics. D. Van Nostrand Company.
+[17] SCHROEDER, B. AND GIBSON, G. A. 2007. Disk failures in the real world: What does an MTTF of
+1,000,000 hours mean to you? In Proceedings of the 5th USENIX Conference on File and Storage
+Technologies (FAST), Berkeley, CA.
+[18] SCHULZE, M., GIBSON, G. A., KATZ, R. H., AND PATTERSON, D. A. 1989. How reliable is a RAID? In
+Proceedings of the COMPCON. 118–123.
+[19] SHAH, S. AND ELERATH, J. G. 2005. Reliability analysis of disk drive failure mechanisms. In Proceedings
+of the IEEE Reliability and Maintainability Symposium, 226–231.
+SNIA. 2008. Storage Networking Industry Association dictionary. http://www.snia.
+org/education/dictionary/.
+[20] TALAGALA, N. AND PATTERSON, D. 1999. An analysis of error behaviour in a large storage system.
+Tech. Rep. UCB/CSD-99-1042. Electrical Engineering and Computer Science Department, University
+of California, Berkeley. February.
+[21] YANG, J. AND SUN, F.-B. 1999. A comprehensive review of hard-disk drive reliability. In Proceedings
+of the Reliability and Maintainability Symposium, 403–409.

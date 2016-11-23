@@ -1,4 +1,4 @@
-Cited by 0
+SSD
 Wang S, Cao J, Murillo DV, Shi Y, Zheng M. Emulating Realistic Flash Device Errors with High Fidelity. InNetworking, Architecture and Storage (NAS), 2016 IEEE International Conference on 2016 Aug (pp. 1-2). IEEE.
 [1] "Global shipments of hdds and ssds in pcs from 2012
 to 2017," http://www.statista.com/statistics/285474/

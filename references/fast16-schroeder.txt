@@ -1,4 +1,4 @@
-Cited by 10
+SSD
 Schroeder, Bianca, Raghav Lagisetty, and Arif Merchant. "Flash reliability in production: The expected and the unexpected." In 14th USENIX Conference on File and Storage Technologies (FAST 16), pp. 67-80. 2016.
 [1] BAIRAVASUNDARAM, L. N., GOODSON, G. R., PASUPATHY, S., AND SCHINDLER, J. An analysis of latent sector errors in disk drives. In Proceedings of the 2007 ACM SIGMETRICS In- ternational Conference on Measurement and Modeling of Com- puter Systems (New York, NY, USA, 2007), SIGMETRICS ’07, ACM, pp. 289–300.
 [2] BALAKRISHNAN, M., KADAV, A., PRABHAKARAN, V., AND MALKHI, D. Differential RAID: Rethinking RAID for SSD reli- ability. Trans. Storage 6, 2 (July 2010), 4:1–4:22.

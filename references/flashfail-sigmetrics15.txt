@@ -1,6 +1,5 @@
-Cited by 14
-Meza, Justin, Qiang Wu, Sanjev Kumar, and Onur Mutlu. "A large-scale study of flash memory failures in the field."
-In ACM SIGMETRICS Performance Evaluation Review, vol. 43, no. 1, pp. 177-190. ACM, 2015.
+SSD
+Meza, Justin, Qiang Wu, Sanjev Kumar, and Onur Mutlu. "A large-scale study of flash memory failures in the field." In ACM SIGMETRICS Performance Evaluation Review, vol. 43, no. 1, pp. 177-190. ACM, 2015.
 [1] NVM Express Speci(cation. .
 http://www.nvmexpress.org/specifications/
 [2] The R Project for Statistical Computing. .

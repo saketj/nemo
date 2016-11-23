@@ -1,4 +1,4 @@
-Cited by 9
+SSD
 Weihang Jiang, Chongfeng Hu, Yuanyuan Zhou, and Arkady Kanevsky. 2008. Are disks the dominant contributor for storage failures?: A comprehensive study of storage subsystem failure characteristics. Trans. Storage 4, 3, Article 7 (November 2008), 25 pages. DOI=http://dx.doi.org/10.1145/1416944.1416946
 [1] ALLEN, B. 2004. Monitoring hard disks with smart. Linux J. 117, 9.
 [2] BAIRAVASUNDARAM, L. N., GOODSON, G. R., SCHROEDER, B., ARPACI-DUSSEAU, A. C., AND ARPACI-DUSSEAU,

@@ -6,16 +6,87 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css" rel="stylesheet" type="text/css" />
+  <!-- Latest Bootstrap compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme for Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="dataset-nodes.js"></script>
   <script type="text/javascript" src="dataset-edges.js"></script>
   <script type="text/javascript" src="plot-graph.js"></script>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body onload="draw()">
-  <p>
-    Citation Graph Visualization <i>(directed edges imply 'cited by' relationship)</i>
-  </p>
-  <div id="mynetwork"></div>
-  <pre id="info"></pre>
+  <div>
+    <div id="header" class="row">
+      <div class="col-md-12">
+        <h5>
+          Citation Graph Visualization <i>(directed edges imply 'cited by' relationship)</i>
+        </h5>
+      </div>
+    </div>
+    <div id="palette" class="row">
+      <div id="mynetwork" class="col-md-9"></div>
+      <div id="controls" class="col-md-3">
+        <div class="row">
+          <div class="col-md-12">
+            <h5> Controls: </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="indegree" placeholder="With In-Degree Atleast">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="outdegree" placeholder="With Out-Degree Atleast">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" checked="true" name="category" value="DISK"> Disk <br>
+                      <input type="checkbox" checked="true" name="category" value="SSD"> SSD <br>
+                      <input type="checkbox" checked="true" name="category" value="NETWORK"> Network <br>
+                      <input type="checkbox" checked="true" name="category" value="CPU"> CPU <br>
+                      <input type="checkbox" checked="true" name="category" value="MEMORY"> Memory <br>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <button type="button" class="btn btn-default" onclick="applyFilter()">Filter</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+          <p id="info"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Small modal -->
+
+  <div class="modal fade bs-example-modal-sm" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp; Loading... </h6>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
